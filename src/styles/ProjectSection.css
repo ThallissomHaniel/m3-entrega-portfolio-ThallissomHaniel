@@ -1,0 +1,49 @@
+h3 {
+    color: var(--Color-grey-1);
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.projects-list li {
+    display: flex;
+    flex-direction: column;
+    width: calc(439px - 30px);
+    height: 183px;
+    flex-shrink: 0;
+    padding: 30px;
+    justify-content: space-between;
+
+    border-radius: var(--Radius-1);
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    position: relative;
+}
+
+.projects-list img {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    width: 37px;
+    height: 38px;
+    flex-shrink: 0;
+}
+
+.projects-list a {
+    color: #6880FF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+}

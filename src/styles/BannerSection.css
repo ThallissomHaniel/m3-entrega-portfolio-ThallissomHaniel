@@ -1,0 +1,57 @@
+section {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.BannerImg {
+    width: 437.792px;
+    height: 265.656px;
+    flex-shrink: 0;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    color: var(--Color-primary);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1 {
+    color: var(--Color-grey-1);
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+}
+
+p {
+    color: var(--Color-grey-1);
+
+    font-family: Inter;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.showMore {
+    align-self: flex-start;
+    width: 114px;
+    height: 39px;
+    flex-shrink: 0;
+
+    border-radius: var(--Radius-0);
+    background: var(--Color-primary);
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--Color-primary-Hover);
+    }
+}

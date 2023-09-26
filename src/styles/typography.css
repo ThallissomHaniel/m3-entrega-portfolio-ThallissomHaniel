@@ -1,0 +1,29 @@
+.title1 {
+    font-weight: bold;
+    font-size: clamp(42px, 10vw, 48px);
+}
+
+.title2 {
+    font-weight: bold;
+    font-size: clamp(36px, 10vw, 40px);
+}
+
+.title3 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+label {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.link {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.paragraph {
+    font-weight: normal;
+    font-size: 16px;
+}

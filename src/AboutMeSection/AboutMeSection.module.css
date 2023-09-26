@@ -1,0 +1,14 @@
+.aboutSection{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 70px;
+}
+
+h2 {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}

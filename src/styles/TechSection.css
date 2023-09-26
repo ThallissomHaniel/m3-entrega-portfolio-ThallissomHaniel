@@ -1,0 +1,31 @@
+.tech-section {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tech-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tech-li {
+    display: flex;
+    border-radius: var(--Radius-1);
+    border: 1px solid rgba(255, 255, 255, 0.50);
+
+    width: calc(287px - 30px);
+    height: 86px;
+    flex-shrink: 0;
+
+    padding-left: 30px;
+    align-items: center;
+    gap: 30px;
+}
+
+.tech-img {
+    width: 28px;
+    height: 37px;
+    flex-shrink: 0;
+}

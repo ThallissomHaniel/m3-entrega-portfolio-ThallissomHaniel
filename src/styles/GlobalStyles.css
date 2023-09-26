@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Pacifico&family=Poppins&display=swap');
+
+:root {
+    /* colorTypes */
+    --Color-primary: #6880FF;
+    --Color-primary-Hover: #7C91FF;
+
+    --Color-grey-0: #181818;
+    --Color-grey-1: #FFFFFF;
+
+    --Color-link: #7B61FF;
+    --Color-link-Hover: #7C91FF;
+
+    /* borderRadius */
+    --Radius-0: 12px;
+    --Radius-1: 25px;
+}
+
+body {
+    background-color: var(--Color-grey-0);
+    padding: 0 200px 0 200px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 998px) {
+    body {
+        padding: 20px;
+    }
+}

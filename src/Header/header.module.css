@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 70.697px;
+    height: 13.872px;
+    fill: var(--Color-grey-1);
+}
+
+nav {
+    display: flex;
+    gap: 60px;
+}
+
+button {
+    color: var(--Color-grey-1);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+
+    background-color: transparent;
+    border: transparent;
+}
+
+header>button {
+    width: 114px;
+    height: 39px;
+    flex-shrink: 0;
+
+    border-radius: var(--Radius-0);
+    background-color: var(--Color-primary);
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--Color-primary-Hover);
+    }
+}

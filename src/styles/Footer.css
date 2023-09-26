@@ -1,0 +1,30 @@
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    background: #181818;
+
+    height: 190px;
+    flex-shrink: 0;
+}
+
+footer>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer div {
+    display: flex;
+    gap: 20px;
+}
+
+footer img {
+    width: 18px;
+    height: 19px;
+    flex-shrink: 0;
+}
