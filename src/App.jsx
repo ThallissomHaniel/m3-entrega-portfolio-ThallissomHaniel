@@ -5,7 +5,6 @@ import { Header } from "./Header"
 import { ProjectSection } from "./ProjectSection"
 import { TechSection } from "./TechSection"
 import { MainContent } from "./MainContent"
-import { technologies } from "./data/technologies"
 
 function App() {
   return (
