@@ -1,4 +1,4 @@
-import {username} from '../data/user'
+import {username} from "../data/user"
 import bannerImg from "../assets/banner-img.png"
 
 export const BannerSection = () => {

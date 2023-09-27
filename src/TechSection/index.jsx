@@ -1,5 +1,5 @@
 import { technologies } from "../data/technologies"
-
+import { TechList } from "../TechList"
 export const TechSection = () => {
     return (
         <section className="tech-section">
@@ -7,10 +7,7 @@ export const TechSection = () => {
             <ul className="tech-list">
                 {technologies.map((element) => {
                     return (
-                        <li className="tech-li" key={element.id}>
-                            <img className="tech-img" src={element.img} alt={element.name} />
-                            <p>{element.name}</p>
-                        </li>
+                        <TechList key={element.id} src={element.img} alt={element.name} name={element.name}/>
                     )
                 })}
             </ul>

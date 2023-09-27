@@ -1,4 +1,4 @@
-import { user } from '../data/user'
+import { user } from "../data/user"
 import whatsappIcon from "../assets/whatsapp-icon.png"
 import linkedinIcon from "../assets/linkedin-icon.png"
 import githubIcon from "../assets/github-icon.png"
