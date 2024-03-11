@@ -2,9 +2,11 @@ import styles from "./AboutMeSection.module.css"
 
 export const AboutMeSection = () => {
     return (
-        <section className={styles.aboutSection}>
+        <section id="aboutDestination" className={styles.aboutSection}>
             <h2>Sobre mim</h2>
-            <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna, imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam a ipsum finibus, dictum leo non, ultrices dui. Nunc id felis pharetra, vehicula enim in, suscipit nisi. Mauris eget sapien a velit facilisis ullamcorper feugiat nec orci. Duis ac iaculis turpis, at feugiat orci.</p>
+            <p className="paragraph">Desenvolvedor Front-end e cursando Back-end por KenzieAcademy. tenho o objetivo de me inserir no mercado de desenvolvimento web, adiquirir experiência e me consolidar no mercado.
+                Tenho como foco no Front-end o desenvolvimento em Javascript, Typescript, e ReactJS; entre outras bibliotecas auxiliares.
+                Me considero uma pessoa persistente, criativa e curioso, tento sempre buscar a lógica de como as coisas acontecem e o porque.</p>
         </section>
     )
 }

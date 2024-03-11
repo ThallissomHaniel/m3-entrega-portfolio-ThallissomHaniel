@@ -3,7 +3,7 @@ import githubIcon from "../assets/github-icon.png"
 
 export const ProjectSection = () => {
     return (
-        <section className="projects-section">
+        <section id="projectsDestination" className="projects-section">
             <h2>Projetos</h2>
             <ul className="projects-list">
                 {projects.map((element) => {
@@ -11,7 +11,7 @@ export const ProjectSection = () => {
                         <li key={element.id}>
                             <h3 className="title3">{element.name}</h3>
                             <p className="paragraph">{element.description}</p>
-                            <a href="">Saiba mais</a>
+                            <a href={element.link}>Saiba mais</a>
                             <img src={githubIcon} alt="" />
                         </li>
                     )

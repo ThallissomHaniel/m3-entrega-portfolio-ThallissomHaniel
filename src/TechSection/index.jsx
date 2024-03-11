@@ -2,7 +2,7 @@ import { technologies } from "../data/technologies"
 import { TechList } from "../TechList"
 export const TechSection = () => {
     return (
-        <section className="tech-section">
+        <section id="techDestination" className="tech-section">
             <h2>Tecnologias</h2>
             <ul className="tech-list">
                 {technologies.map((element) => {

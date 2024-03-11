@@ -7,7 +7,7 @@ export const BannerSection = () => {
             <div className="wrap">
                 <p className="name">{username}</p>
                 <h1 className="title1">Bem vindo ao meu portfólio</h1>
-                <p className="paragraph">Uma frase interessante sobre mim</p>
+                <p className="paragraph">Todos veem os resultados, mas nunca o processo.</p>
                 <button className="showMore">Saiba mais</button>
             </div>
             <img className="BannerImg" src={bannerImg} alt="BannerImage" />
